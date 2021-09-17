@@ -24,7 +24,7 @@
     &kp LS(F10)       &kp LS(F9)       &kp LC(F2)
     &kp LC(LS(F10))   &kp LC(LS(F9))   &kp LS(F6)
     &kp LC(LA(M))     &kp LC(LS(F8))   &kp LA(F7)
-    &kp LA(F1) N1     &kp LA(F1) N4    &kp LC(LA(H))
+    &kp (LA(F1), N1)     &kp (LA(F1), N4)    &kp LC(LA(H))
             >;
         };
     };
