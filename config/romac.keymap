@@ -9,6 +9,21 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    behaviors {
+		macro_1: macro_1 {
+			compatible = "zmk,behavior-macro";
+			label = "MACRO_1";
+			#binding-cells = <0>;
+			bindings = <&kp LEFT_ALT(F1)>, <&kp 1>;
+		};
+        macro_2: macro_2 {
+			compatible = "zmk,behavior-macro";
+			label = "MACRO_2";
+			#binding-cells = <0>;
+			bindings = <&kp LEFT_ALT(F1)>, <&kp 4>;
+		};
+	};
+    
     keymap {
         compatible = "zmk,keymap";
 
@@ -23,7 +38,7 @@
     &kp LEFT_SHIFT(F10)               &kp LEFT_SHIFT(F9)               &kp LEFT_CONTROL(F2)
     &kp LEFT_CONTROL(LEFT_SHIFT(F10)) &kp LEFT_CONTROL(LEFT_SHIFT(F9)) &kp LEFT_SHIFT(F6)
     &kp LEFT_CONTROL(LEFT_ALT(M))     &kp LEFT_CONTROL(LEFT_SHIFT(F8)) &kp LEFT_ALT(F7)
-    &kp (LEFT_ALT(F1), 1)             &kp (LEFT_ALT(F1), 4)            &kp LEFT_CONTROL(LEFT_ALT(H))
+    &macro_1                          &macro_2                         &kp LEFT_CONTROL(LEFT_ALT(H))
             >;
         };
     };
