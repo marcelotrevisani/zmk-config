@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/okke-formsma
   projects:
     - name: zmk
-      remote: okke-formsma
+      remote: zmkfirmware
       revision: macros
       import: app/west.yml
   self:
