@@ -11,16 +11,16 @@
 / {
     behaviors {
 		macro_1: macro_1 {
-			compatible = "zmk,behavior-macro";
+			compatible = "zmk,behavior-simple-macro";
 			label = "MACRO_1";
 			#binding-cells = <0>;
-			bindings = <&kp LEFT_ALT(F1)>, <&kp 1>;
+			bindings = < &kp LEFT_ALT(F1), &kp 1 >;
 		};
         macro_2: macro_2 {
-			compatible = "zmk,behavior-macro";
+			compatible = "zmk,behavior-simple-macro";
 			label = "MACRO_2";
 			#binding-cells = <0>;
-			bindings = <&kp LEFT_ALT(F1)>, <&kp 4>;
+			bindings = < &kp LEFT_ALT(F1), &kp 4 >;
 		};
 	};
     
