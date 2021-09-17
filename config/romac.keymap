@@ -21,10 +21,10 @@
 // | MO(1)  |  0  |  .  |
 // ----------------------
             bindings = <
-    &kp LEFT_SHIFT(F10)               &kp LEFT_SHIFT(F9)               &kp LEFT_CONTROL(F2)
-    &kp LEFT_CONTROL(LEFT_SHIFT(F10)) &kp LEFT_CONTROL(LEFT_SHIFT(F9)) &kp LEFT_SHIFT(F6)
-    &kp LEFT_CONTROL(LEFT_ALT(M))     &kp LEFT_CONTROL(LEFT_SHIFT(F8)) &kp LEFT_ALT(F7)
-    &kp (LALT(F1), N1)                &kp (LALT(F1), N4)               &kp LEFT_CONTROL(LEFT_ALT(H))
+    &kp LEFT_SHIFT F10              &kp LEFT_SHIFT F9                &kp LEFT_CONTROL F2
+    &kp LEFT_CONTROL LEFT_SHIFT F10 &kp LEFT_CONTROL LEFT_SHIFT F9   &kp LEFT_SHIFT F6
+    &kp LEFT_CONTROL LEFT_ALT M     &kp LEFT_CONTROL LEFT_SHIFT F8   &kp LEFT_ALT F7
+    &kp (LA(F1), N1)                &kp (LA(F1), N4)                 &kp LEFT_CONTROL LEFT_ALT H
             >;
         };
     };
